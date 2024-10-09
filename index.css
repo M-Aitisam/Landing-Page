@@ -27,6 +27,11 @@ nav {
     gap: 20px;
     align-items: center;
 }
+.link{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 
 .nav-links a {
     color: #fff;
@@ -88,4 +93,34 @@ nav {
     gap: 5px;
     font-weight: bold;
     color: #333;
+}
+
+.profile-pic-container {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.profile-pic-container h2 {
+    font-size: 2rem;
+    color: #0398DC;
+    margin-bottom: 1rem;
+}
+
+.profile-pics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profile-pics img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-pics img:hover {
+    transform: scale(1.1);
 }
